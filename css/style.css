@@ -360,7 +360,7 @@ p {
 }
 
 
-@media (min-width: 480) {
+@media (min-width: 480px) {
     .navegacion-icono-Menu {
         display: none;
     }
