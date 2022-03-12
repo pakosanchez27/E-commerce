@@ -38,34 +38,50 @@
                 <a href="#" class="navegacion-icono-carrito">
                     <img src="src/icon-cart.svg" alt="icono carrito" id="carrito">
                 </a>
-                <a href="#" class="navegacion-perfil">
+                <a href="#" class="navegacion-perfil" id="perfil">
                     <img src="src/image-avatar.png" alt="Imagen de perfil">
                 </a>
             </div>
         </nav>
 
         </div>
-        <div class="producto">
-            <div class="card-carrito">
+        <div class="producto ">
+            <div class="  card-carrito  " id="card-carrito">
                 <div class="card-titulo">
                     <p>Card</p>
                 </div>
-                <div class="contenido-carrito">
+                <div class="contenido-carrito" id="contenido">
                     <p class="mensaje">
                         Your cart is empty
                     </p>
                     <div class="articulos">
                         <div class="datos-carrito">
-                            <div class="product-img">
-                                <img src="src/image-product-1.jpg" width="70" />
-                            </div>
-                            <div class="product-info">
-                                <p>Autumn Limited Edition</p>
-                                <p>$125 x 3 <span>$375.00</span></p>
-                            </div>
-                            <div class="btnEliminar">
-                                <img src="src/icon-delete.svg" alt="btnEliminar">
-                            </div>
+                            <table id="lista-productos" class="lista-productos">
+                                <thead>
+                                    <tr></tr>
+                                    <tr></tr>
+                                    <tr></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="product-img">
+                                            <img src="src/image-product-1.jpg" width="70" />
+                                        </td>
+                                        <td class="product-info">
+                                            <p>Autumn Limited Edition</p>
+                                            <p>$125 x 3 <span>$375.00</span></p>
+                                        </td>
+                                        <td class="btnEliminar">
+                                            <img src="src/icon-delete.svg" alt="btnEliminar">
+                                        </td>
+                                    </tr>
+                                    
+                                   
+                                   
+                                </tbody>
+                            </table>
+                     
+  
                         </div>
                         <div class="check">
                             <a href="#" class="btnCheck">Checkout</a>
