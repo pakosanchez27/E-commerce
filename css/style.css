@@ -210,7 +210,7 @@ p {
     margin: 2rem;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 480px) {
 
     .datos-carrito {
         gap: 1rem;
@@ -360,7 +360,7 @@ p {
 }
 
 
-@media (min-width: 376px) {
+@media (min-width: 480) {
     .navegacion-icono-Menu {
         display: none;
     }
