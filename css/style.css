@@ -68,13 +68,13 @@ p {
     display: none;
 }
 
-.ativo {
+.activo {
     display: block;
 }
 
 .mobile {
     z-index: 1;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -83,11 +83,16 @@ p {
     width: 50%;
     height: 100vh;
     padding: 2rem;
+    margin-left: -2rem;
+    margin-top: 100vh;
 
 }
 
 .navegacion {
     display: none;
+    flex-direction: column;
+    position: absolute;
+  
 }
 
 
@@ -212,18 +217,7 @@ p {
 
 @media (min-width: 480px) {
 
-    .datos-carrito {
-        gap: 1rem;
-    }
-
-    .product-img img {
-        width: 4rem;
-    }
-
-    .product-info p {
-        font-size: 1.5rem;
-    }
-
+  
 }
 
 /* hero */
@@ -419,6 +413,18 @@ p {
         right: 40px;
 
     }
+    .datos-carrito {
+        gap: 1rem;
+    }
+
+    .product-img img {
+        width: 4rem;
+    }
+
+    .product-info p {
+        font-size: 1.5rem;
+    }
+
 
 
     .product-info {
