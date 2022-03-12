@@ -85,6 +85,8 @@ p {
     padding: 2rem;
     margin-left: -2rem;
     margin-top: 100vh;
+    
+   
 
 }
 
@@ -92,6 +94,9 @@ p {
     display: none;
     flex-direction: column;
     position: absolute;
+    
+
+    
   
 }
 
@@ -365,8 +370,9 @@ p {
 
     .navegacion {
         display: flex;
+        flex-direction: row;
         gap: 2rem;
-
+        margin-left: 15rem;
 
     }
 
