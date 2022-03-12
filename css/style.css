@@ -143,23 +143,25 @@ p {
    
 
 }
-.lista-productos {
-    width: 100%;
-}
+
 .lista-productos tr{
     
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 115%;
-    gap: 2rem;
+    width: 100%;
+    gap: 1rem;
+
     
 }
 .lista-productos tbody{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
+    
+
     
 }
 .activoCar {
@@ -172,9 +174,9 @@ p {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
-    gap: 2rem;
-
+    padding: 1rem;
+    gap: 1rem;
+    
 
     display: flex;
 }
@@ -208,9 +210,11 @@ p {
 
 .check {
     background-color: var(--orenge);
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     border-radius: 1rem;
+    height: auto;
+    
     /* text-decoration: none; */
 }
 
@@ -389,7 +393,7 @@ p {
     .navegacion {
         display: flex;
         flex-direction: row;
-        gap: 2rem;
+        
         margin-left: 15rem;
 
     }
@@ -403,7 +407,7 @@ p {
 
     .header-navegacion {
         padding: 2rem;
-        margin: 0 10rem;
+        margin: 0 5rem;
         border-bottom: solid 1px var(--blue);
         margin-bottom: 5rem;
     }
@@ -431,7 +435,7 @@ p {
 
     .card-carrito {
         border: solid 1px black;
-        width: 40%;
+        width: 28%;
         /* height: 24rem; */
         top: 60px;
         right: 40px;
@@ -441,15 +445,10 @@ p {
     }
 
     .contenido-carrito{
-        padding: 0;
+        padding: 1rem;
         margin: 0;
+    }
     
-       
-        
-    }
-    .datos-carrito {
-        gap: 2rem;
-    }
     .lista-productos {
         width: 100%;
     }
@@ -462,21 +461,15 @@ p {
         
         
     }
-    .lista-productos tbody{
-        display: flex;
-        flex-direction: column;
-
-        align-items: center;
-        
-        
-    }
+  
 
     .product-img img {
         width: 5rem;
     }
 
     .product-info p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        width: 100%;
     }
 
    
